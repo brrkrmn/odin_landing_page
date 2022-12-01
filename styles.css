@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .content-container {
@@ -57,7 +57,7 @@ ul {
     margin-bottom: 4px;;
 }
 
-button {
+.primary-button {
     background-color: #3882f6;
     color: #F9FAF8;
     font-size: 18px;
@@ -99,7 +99,15 @@ button {
 .card-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    max-width: 150px;
 }
 
 .card-box {
@@ -110,14 +118,10 @@ button {
     border-style: solid;
     border-radius: 10%;
     border-color: #3882f6;
-    padding: 4px;
 }
 
 .card-text {
-    flex-wrap: wrap;
-    max-width: 150px;
     text-align: center;
-    padding: 12px;
     color:rgb(98, 109, 127);
 }
 
@@ -134,6 +138,7 @@ button {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    font-weight: 300;
 }
 
 .cite {
@@ -169,10 +174,9 @@ button {
 
 .button-text {
     color: #F9FAF8;
-    font-size: 
 }
 
-#sign-up-button {
+.signup-button {
     border: 2px;
     border-style: solid;
     border-color: #F9FAF8;
